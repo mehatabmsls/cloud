@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #ffffff;
+}
+@media (max-width: 1300px) {
+  .about {
+    display: none;
+  }
+  .section1 {
+    width: auto;
+  }
+}
+@media (max-width: 768px) {
+  .lists {
+    display: none;
+  }
+}
